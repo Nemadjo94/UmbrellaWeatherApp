@@ -1,20 +1,3 @@
-/* eslint-disable react/no-unused-state */
-/* eslint-disable object-property-newline */
-/* eslint-disable global-require */
-/* eslint-disable no-return-assign */
-/* eslint-disable react/jsx-max-props-per-line */
-/* eslint-disable react/jsx-first-prop-new-line */
-/* eslint-disable spaced-comment */
-/* eslint-disable no-var */
-/* eslint-disable react/jsx-closing-tag-location */
-/* eslint-disable react/jsx-closing-bracket-location */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable object-curly-spacing */
-/* eslint-disable react/jsx-indent-props */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable linebreak-style */
 import React from 'react';
 import
 {

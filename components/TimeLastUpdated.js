@@ -1,7 +1,3 @@
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable linebreak-style */
 import React from 'react';
 import moment from 'moment';
 import PropTypes from 'prop-types';

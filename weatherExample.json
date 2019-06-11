@@ -1,0 +1,49 @@
+{
+   [
+    "Subotica",
+    "imperial",
+  ]
+   {
+    "base": "stations",
+    "clouds":  {
+      "all": 70,
+    },
+    "cod": 200,
+    "coord":  {
+      "lat": 46.1,
+      "lon": 19.66,
+    },
+    "dt": 1559321105,
+    "id": 3189595,
+    "main":  {
+      "humidity": 43,
+      "pressure": 1019,
+      "temp": 70,
+      "temp_max": 70,
+      "temp_min": 70,
+    },
+    "name": "Subotica",
+    "rain":  {},
+    "sys":  {
+      "country": "RS",
+      "id": 2003057,
+      "message": 0.0064,
+      "sunrise": 1559271291,
+      "sunset": 1559327008,
+      "type": 3,
+    },
+    "timezone": 7200,
+    "weather":  [
+       {
+        "description": "broken clouds",
+        "icon": "04d",
+        "id": 803,
+        "main": "Clouds",
+      },
+    ],
+    "wind":  {
+      "deg": 26.186,
+      "speed": 4.54,
+    },
+  }
+}

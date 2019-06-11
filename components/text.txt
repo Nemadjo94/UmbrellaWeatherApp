@@ -1,5 +1,0 @@
-<ScrollView horizontal contentContainerStyle={styles.contentContainer2}>
-                      {
-                        this.generateBoxes(this.state.Boxes)
-                      }
-                    </ScrollView>

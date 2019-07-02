@@ -1,3 +1,7 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable linebreak-style */
 import React from 'react';
 import moment from 'moment';
 import PropTypes from 'prop-types';
@@ -5,19 +9,17 @@ import { Text, StyleSheet } from 'react-native';
 
 export default class TimeLastUpdated extends React.Component {
 
-  // Validate props passed from Content
-  static propTypes = {
+  static propTypes = {  // validate props passed from Content
       time: PropTypes.number.isRequired,
   };
 
-  // When the component mounts trigger the update every 10 seconds
-  componentDidMount() {
+  componentDidMount() { // when the component mounts trigger the update every 10 seconds
     this.interval = setInterval(() => {
       this.forceUpdate();
     }, 10000);
   }
 
-  // Before the component is destroyed we need to unset the timer
+  // before the component is destroyed we need to unset the timer
   // made in componentDidMount
   componentWillUnmount() {
     clearInterval(this.interval);
@@ -26,7 +28,7 @@ export default class TimeLastUpdated extends React.Component {
   render() {
     return (
       <Text style={styles.updateTime} >
-          Last update: {moment(this.props.time, 'X').fromNow()}
+          updated {moment(this.props.time, 'X').fromNow()}
       </Text>
     );
   }
@@ -34,7 +36,9 @@ export default class TimeLastUpdated extends React.Component {
 
 const styles = StyleSheet.create({
   updateTime: {
+    fontFamily: 'sans-serif-light',
     color: '#fff',
     fontSize: 14,
+    alignSelf: 'center',
   },
 });

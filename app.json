@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "weatherapp---1part",
+    "name": "weatherapp",
     "description": "No description",
     "slug": "snack-BywBYo824",
     "privacy": "unlisted",
@@ -23,6 +23,10 @@
     },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
   }
 }
